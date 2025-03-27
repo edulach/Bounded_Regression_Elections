@@ -1,6 +1,6 @@
 # A Methodology to Analyze Presidential Election Votes by Constituencies: Dimensionality Reduction and Modeling
 
-Eduardo Lachos Olivares <sup>1</sup> and Jorge L. Bazán<sup>2</sup>
+Victor Eduardo Lachos Olivares <sup>1</sup> and Jorge Luis Bazán Guzmán<sup>2</sup>
 
 <sup>1</sup>Department of Applied Mathematics and Statistics, University of São Paulo, São Carlos, Brazil
 
