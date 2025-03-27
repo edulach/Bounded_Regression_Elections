@@ -6,7 +6,7 @@ Victor Eduardo Lachos Olivares <sup>1</sup> and Jorge Luis Bazán Guzmán<sup>2<
 
 <sup>2</sup>Department of Applied Mathematics and Statistics, University of São Paulo, São Carlos, Brazil
 
-Corresponding Authors:Eduardo Lachos Olivares: velo28@usp.brJorge L. Bazán: jlbazan@icmc.usp.br
+Corresponding Authors:Eduardo Lachos Olivares: velo28@usp.br Jorge L. Bazán: jlbazan@icmc.usp.br
 
 ## Previous installations
 
