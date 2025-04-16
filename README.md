@@ -24,7 +24,7 @@ Election results by constituency.
 
 Human development indicators (or other covariates) used to analyze the factors derived from principal component analysis (PCA).
 
-- Datasets: This folder contains election data for Peru (2021), Brazil (2022), and Chile (2021), along with their corresponding Human Development Indicators (HDI). All files are stored in .txt format.
+- Datasets: This folder contains election data for Peru (2021), and Brazil (2022), along with their corresponding Human Development Indicators (HDI). All files are stored in .txt format.
 - Codes: This folder includes R scripts for the methodology, auxiliary functions (e.g., data transformations, PCA metrics such as scores, loadings, and cumulative variance), and Bayesian model selection criteria.
 - Models: This folder holds four bounded regression models written in Stan code:
 
