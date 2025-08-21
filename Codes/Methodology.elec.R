@@ -11,6 +11,7 @@ datasets_dir <- file.path(base_dir, "Datasets")
 
 stanmodels <- file.path(base_dir, "Models", c("stan_null.stan", "stan_location.stan", "stan_precision.stan", "stan_full.stan"))
 
+#stanmodels <- file.path(base_dir, "Models", c("stan_location.stan"))
 
 
 #1. collecting multiparty votes
@@ -93,7 +94,7 @@ PCA_clr_pr = function(data_clr){
    #components_to_plot <- c(1, 2)
  }
 biplot(PCA_clr,xlab='First Component',
-      ylab='Second Component',main ="",cex = 0.4,scale = 0, cex.lab = 0.8)
+      ylab='Second Component',main ="",cex = 0.3,scale = 0, cex.lab = 0.8)
 #return(summary(PCA_clr))
 return(list(
   loadings = loadings,
@@ -138,8 +139,8 @@ trans_scores <- function(extracted_scores) {
 #7. Explanatory variables 
 crit = function(){
   Dbar = mean(extract(fit.stan, "dev", inc_warmup=FALSE, permuted=FALSE))
-  eaic = Dbar + 2*np
-  ebic = Dbar + np*log(sum(N))
+  #eaic = Dbar + 2*np
+  #ebic = Dbar + np*log(sum(N))
   waic = loo::waic(extract(fit.stan)$log_lik)$estimates[3,1]
   looic = loo::loo(extract(fit.stan)$log_lik)$estimates[3,1]
   
