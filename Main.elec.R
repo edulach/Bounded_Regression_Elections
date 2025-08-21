@@ -48,7 +48,9 @@
     dat_stan <- list(
       N = nrow(data),
       X = idhdata,
-      K = ncol(idhdata),
+      Y = idhdata,
+      r = ncol(idhdata),
+      s = ncol(idhdata),
       y = scores_tr[, resp]
     )
     
